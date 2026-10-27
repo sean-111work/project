@@ -1,0 +1,17 @@
+# Build artifacts
+/app
+*.exe
+*.test
+*.out
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Local secrets
+.env
+.env.*
+!.env.example
